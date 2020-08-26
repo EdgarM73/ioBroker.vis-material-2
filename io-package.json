@@ -1,0 +1,129 @@
+{
+    "common": {
+        "name": "vis-material-advanced",
+        "version": "0.4.0",
+        "news": {
+            "0.4.0": {
+                "en": "feat: Temperature and humid can now be completeely colorized depending on Temperature/humidity to show the state of the rooms better",
+                "de": "feat: Temperatur und Luftfeuchtigkeit können jetzt je nach Temperatur / Luftfeuchtigkeit vollständig eingefärbt werden, um den Zustand der Räume besser darzustellen",
+                "ru": "feat: Температура и влажность теперь могут быть полностью окрашены в зависимости от температуры / влажности, чтобы лучше отображать состояние комнат",
+                "pt": "façanha: A temperatura e a umidade agora podem ser totalmente coloridas dependendo da temperatura / umidade para mostrar melhor o estado das salas",
+                "nl": "prestatie: temperatuur en vochtigheid kunnen nu volledig worden ingekleurd, afhankelijk van temperatuur / vochtigheid, om de toestand van de kamers beter weer te geven",
+                "fr": "exploit: La température et l'humidité peuvent maintenant être complètement colorisées en fonction de la température / humidité pour mieux montrer l'état des pièces",
+                "it": "impresa: la temperatura e l'umidità possono ora essere completamente colorate a seconda della temperatura / umidità per mostrare meglio lo stato delle stanze",
+                "es": "hazaña: la temperatura y la humedad ahora se pueden colorear completamente dependiendo de la temperatura / humedad para mostrar mejor el estado de las habitaciones",
+                "pl": "feat: Temperaturę i wilgotność można teraz całkowicie pokolorować w zależności od temperatury / wilgotności, aby lepiej pokazać stan pomieszczeń",
+                "zh-cn": "壮举：现在可以根据温度/湿度对温度和湿度进行完全着色，以更好地显示房间的状态"
+            },
+            "0.3.0": {
+                "en": "feat: added Color Temperature widget, recreated Shutter Widget",
+                "de": "feat: Farbtemperatur-Widget hinzugefügt, Shutter-Widget neu erstellt",
+                "ru": "feat: добавлен виджет цветовой температуры, воссоздан виджет Shutter",
+                "pt": "talento: widget de temperatura de cor adicionado, widget de obturador recriado",
+                "nl": "feat: Kleurtemperatuurwidget toegevoegd, Shutter Widget opnieuw gemaakt",
+                "fr": "exploit: widget de température de couleur ajouté, widget d'obturation recréé",
+                "it": "feat: aggiunto il widget della temperatura del colore, ricreato il widget dell'otturatore",
+                "es": "hazaña: widget de temperatura de color agregado, widget de obturador recreado",
+                "pl": "feat: dodano widżet Temperatury barwowej, odtworzony Widget Migawki",
+                "zh-cn": "壮举：添加了“色温”小部件，重新创建了“快门”小部件"
+
+            },
+            "0.2.0": {
+                "en": "feat: all items are now more customizable, e.g. Text-color, own Icon, colored opacity",
+                "de": "feat: Alle Items sind nun besser anpassbar, z.b. Textfarbe, eigene Icons, Auswahl an farbiger opacity",
+                "ru": "feat: все элементы теперь более настраиваемые, например Цвет текста, собственный значок, цветная непрозрачность"
+            },
+            "0.1.8": {
+                "en": "feat: now compatible with https://github.com/Uhula/ioBroker-Material-Design-Style",
+                "de": "feat: CSS Klassen umbenannt, damit es kompatibel mit https://github.com/Uhula/ioBroker-Material-Design-Style ist",
+                "ru": "feat: now compatible with https://github.com/Uhula/ioBroker-Material-Design-Style"
+            },
+            "0.1.7": {
+                "en": "feat: adapted button alike view for widgets",
+                "de": "feat: widgts sehen aus wie buttons",
+                "ru": "feat: new occupancy widget"
+            },
+            "0.1.6": {
+                "en": "feat: new occupancy widget",
+                "de": "feat: neues Bewegungsmelder widget",
+                "ru": "feat: new occupancy widget"
+            },
+            "0.1.5": {
+                "en": "feat: new window shutter widget",
+                "de": "feat: neues Fenster-Rollladen widget",
+                "ru": "feat: new window shutter widget"
+            },
+            "0.1.4": {
+                "en": "feat: new humidity widget",
+                "de": "feat: neues Luftfeuchte widget",
+                "ru": "feat: new humidity widget"
+            },
+            "0.1.3": {
+                "en": "feat: new dimmer widget",
+                "de": "feat: new dimmer widget",
+                "ru": "feat: new dimmer widget"
+            },
+            "0.1.2": {
+                "en": "feat: switch added to light widget",
+                "de": "feat: switch added to light widget",
+                "ru": "feat: switch added to light widget"
+            },
+            "0.1.1": {
+                "en": "feat: temperature and light widget",
+                "de": "feat: temperature and light widget",
+                "ru": "feat: temperature and light widget"
+            },
+            "0.1.0": {
+                "en": "feat: include material css from uhula",
+                "de": "feat: include material css from uhula",
+                "ru": "feat: include material css from uhula"
+            },
+            "0.0.1": {
+                "en": "initial adapter",
+                "de": "Initiale Version",
+                "ru": "Первоначальный адаптер",
+                "pt": "Versão inicial",
+                "fr": "Version initiale",
+                "nl": "Eerste release"
+            }
+        },
+        "title": "advanced material widgets",
+        "titleLang": {
+            "en": "advanced material widgets ",
+            "de": "erweiterte Material-Widgets",
+            "ru": "расширенные виджеты материалов",
+            "pt": "widgets de materiais avançados",
+            "nl": "geavanceerde materiaalwidgets",
+            "fr": "widgets de matériaux avancés",
+            "it": "widget materiali avanzati",
+            "es": "widgets de material avanzados",
+            "pl": "zaawansowane widżety materiałów",
+            "zh-cn": "先进的材料小部件"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "material.png",
+        "enabled": true,
+        "mode": "once",
+        "extIcon": "https://raw.githubusercontent.com/EdgarM73/ioBroker.vis-material-advanced/master/admin/material.png",
+        "keywords": ["material", "vis", "GUI", "graphical", "scada"],
+        "readme": "https://github.com/EdgarM73/ioBroker.vis-material-advanced/blob/master/README.md",
+        "authors": [
+            "nisiode <nisio.air@gmail.com>",
+            "EdgarM73 <edgar.miller@gmail.com>"
+        ],
+        "localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+        "license": "MIT",
+        "dependencies": ["vis"],
+        "onlyWWW": true,
+        "noConfig": true,
+        "singleton": true,
+        "type": "visualization-widgets",
+        "connectionType": "local",
+        "dataSource": "poll",
+        "restartAdapters": ["vis"]
+    },
+    "native": {
+        "dependencies": []
+    },
+    "instanceObjects": []
+}

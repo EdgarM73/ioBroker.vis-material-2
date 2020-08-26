@@ -348,3 +348,24 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+/node_modules
+/nbproject
+widgets/eins.html
+widgets/widget.html
+.vscode/launch.json
+widgets/widget.json
+widgets/my.js
+widgets/test.css
+test/test.css
+test/test.html
+vis-material.code-workspace
+widgets/text.hmtl
+widgets/mat.css
+widgets/material/css/global.css
+widgets/material/css/project.css
+.vscode/settings.json
+widgets/material/img/fts_kelvin_kaltweiss.svg
+widgets/material/img/fts_kelvin_mittel.svg
+widgets/material/img/fts_kelvin_warmweiss.svg
+widgets/material/img/fts_kelvin_mittel.svg.png
